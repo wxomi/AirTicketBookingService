@@ -21,3 +21,6 @@ const setupAndStartServer = () => {
 };
 
 setupAndStartServer();
+
+//Todo Implementing Rabbitmq such that whenever someone creates a booking it will get message that ticket s'been created and working reminder also
+//Todo Also do isverified Check Everywhere
