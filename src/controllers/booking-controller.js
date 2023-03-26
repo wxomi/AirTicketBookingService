@@ -13,8 +13,8 @@ class BookingController {
     const channel = await createChannel();
     const payload = {
       data: {
-        subject: "This is a Noti from Queue",
-        content: "Some queue will subscribe this",
+        subject: ``,
+        content: ``,
         recepientEmail: "sainianshul4987@gmail.com",
         notificationTime: "2023-03-19T09:19:00.000",
       },
